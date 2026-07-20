@@ -14,7 +14,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css"
     />
   </head>
-  <body class="m-auto p-0">
+  <body class="m-auto p-0 max-w-7xl w-90%">
     <header class="pt-5">
       <div class="flex justify-center items-center">
         <section class="">
@@ -36,7 +36,7 @@
         <section class="">
           <img src="images/banner.png" alt="" class="relative top-[120px]" />
           <div
-            class="flex justify-center items-center h-[100px] w-[255px] shadow bg-white rounded-lg absolute right-80"
+            class="flex justify-center items-center h-[100px] w-[255px] shadow bg-white rounded-lg sticky right-80"
           >
             <div>
               <i class="fa-regular fa-star text-yellow-300 text-4xl"></i>
@@ -111,14 +111,14 @@
           </div>
         </div>
       </section>
-      <section>
-        <div class="grid grid-cols-2">
-          <div class="border w-[238px] h-[136px]"></div>
-          <img src="images/fresh-1.png" alt="" class="row-span-2">
-          <img src="images/fresh-2.png" alt="">
-          <div class="border w-[238px] h-[136px]"></div>
+      <section class="flex border border-pink-500">
+        <div class="h-full w-1/2 grid grid-cols-2 grid-rows-3 gap-4 p-4  border border-red-500">
+          <div class="border border-red-800 bg-linear-to-l from-[#FF0000]/20 to-[#FF8938]/20"></div>
+          <div class="border border-red-800 row-span-2"><img src="images/fresh-1.png" alt=""></div>
+          <div class="border border-red-800 row-span-2"><img src="images/fresh-2.png" alt=""></div>
+          <div class="border border-red-800"></div>
         </div>
-        <div></div>
+        <div class="h-full w-1/2 border border-red-500"></div>
       </section>
     </main>
     <footer></footer>
